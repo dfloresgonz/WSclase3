@@ -26,10 +26,6 @@ namespace WcfService1
             OBoleta2.subtotal = subtotal * 2;
             OBoleta2.igv = subtotal * IGV_PORC;
             OBoleta2.CalcularTotal();
-            List<Boleta> listBoletas = new List<Boleta>();
-            listBoletas.Add(OBoleta);
-            listBoletas.Add(OBoleta2);
-            Console.WriteLine(listBoletas);
             //
             return OBoleta;
         }
